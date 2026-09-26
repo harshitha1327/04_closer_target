@@ -1,7 +1,6 @@
 const r = require("raylib");
 
 const g = require("./geometry");
-const m = require("./math");
 
 function running() {
     return !r.WindowShouldClose();
@@ -10,7 +9,6 @@ function running() {
 const WIDTH = 1500;
 const HEIGHT = 1000;
 const FPS = 50;
-
 
 function setup() {
     r.InitWindow(WIDTH, HEIGHT, "Closer Target");
